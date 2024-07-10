@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Lato;
+    src: url(https://gu-st.ru/landing-template-engine-st/lib-assets/fonts/Lato-Regular-v2.woff) format("woff");
+}
+
+*{
+    font-family: Lato, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.div2{
+    height: 400px;
+    background: linear-gradient(86deg, rgb(223, 222, 255) 0%, rgb(255, 227, 227) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{ 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+}   
+.txt1{
+    margin-top: 0px;
+    width: 550px;
+    line-height: 24px;
+}
+.mainh1{
+    font-size: 35px;
+    width: 500px;
+}
+.coins{
+    justify-content: right;
+    height: 60%;
+}
+.panel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    padding-left: 100px;
+}
+.logo{
+    margin: 10px;
+    height:20px;
+}
+.Ye{
+    color:rgb(48, 85, 188);
+    margin-left: 5px;
+}
+.top{
+    
+}
