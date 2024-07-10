@@ -52,5 +52,9 @@
     margin-left: 5px;
 }
 .top{
-    
+    color: rgb(48, 85, 188);
+    text-decoration: none;
+    text-align: right;
+    align-items: right;
+    margin: 5px;
 }
