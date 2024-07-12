@@ -1,60 +1,207 @@
-@font-face {
-    font-family: Lato;
-    src: url(https://gu-st.ru/landing-template-engine-st/lib-assets/fonts/Lato-Regular-v2.woff) format("woff");
+body{
+    width: 100wv;
+    height: 100wv;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(244, 244, 244, 0.989);
 }
 
-*{
-    font-family: Lato, Arial, sans-serif;
-    box-sizing: border-box;
+@font-face {                                    
+    font-family: Lato;                                  
+    src: url(https://gu-st.ru/landing-template-engine-st/lib-assets/fonts/Lato-Regular-v2.woff) format("woff");                                     
+}                                   
+                                    
+*{                                  
+    font-family: Lato, Arial, sans-serif;                                   
+    box-sizing: border-box;                                     
+}  
+
+
+.div2{                                  
+    height: 400px;                                  
+    background: linear-gradient(86deg, rgb(223, 222, 255) 0%, rgb(255, 227, 227) 100%);                                     
+    display: flex;                                  
+    flex-direction: row;                                    
+    justify-content: center;                                    
+    align-items: center;                                    
+}                                   
+
+.div1{                                      
+    width: 50%;                                     
+    display: flex;                                  
+    flex-direction: column;                                     
+    border: 0px;                                    
+}                                       
+.txt1{                                  
+    margin-top: 0px;                                    
+    width: 550px;                                   
+    line-height: 24px;                                  
+}                                   
+.mainh1{                                    
+    font-size: 35px;                                    
+    width: 500px;                                   
+}                                   
+.coins{                                     
+    justify-content: right;                                     
+    height: 60%;                                    
+}                                   
+.panel{                                     
+    display: flex;                                  
+    flex-direction: row;                                    
+    align-items: center;                                    
+    height: 60px;                                   
+    padding-left: 100px;   
+    position: fixed;
+    z-index: 1;     
+    background-color: white; 
+    width: 100%;                           
+}                                   
+.logo{                                  
+    margin: 10px;                                   
+    height:20px;                                    
+}                                   
+.Ye{                                    
+    color:rgb(48, 85, 188);                                     
+    margin-left: 5px;   
+    border: 0px;  
+    height: 20px;                              
+}                                   
+.top{                                   
+    color: rgb(48, 85, 188);                                    
+    text-decoration: none;                                  
+    text-align: right;                                  
+    align-items: right;                                     
+    margin: 5px;
+    margin-left: 20px;
+    
+}
+.toptxt{
+    margin-left: 450px;
+}                                   
+.search_icon{
+    margin-left: 10px;
+}
+.search_icon:hover{
+    cursor: pointer;
+}
+.sign_in{
+    background-color: rgb(217, 236, 253);
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    border: 0px;
+    font-size: 16px;
+    margin-left: 10px;
+    color: rgb(48, 85, 188);
 }
 
-.div2{
-    height: 400px;
-    background: linear-gradient(86deg, rgb(223, 222, 255) 0%, rgb(255, 227, 227) 100%);
+.sign_in:hover{
+    cursor: pointer;
+    background-color: rgb(48, 85, 188);
+    color: rgb(217, 236, 253);
+}
+
+.head{
+    text-align:center;
+    margin-top: 60px;
+}
+.box1{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    border-radius: 30px;
+    height: 300px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.tire {
+    list-style-type: none;
+    padding: 0;
+    line-height: 30px;
+    list-style: none;
+}
+
+.tire li {
+    position: relative;
+    margin-bottom: 16px;
+    padding-left: 20px;
+}
+
+.tire li::before {
+    content: "—";   
+    position: absolute;
+    color: #4d83fa;
+    left: 0;
+}
+
+.box2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.div1{ 
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    border: 0px;
-}   
-.txt1{
-    margin-top: 0px;
-    width: 550px;
-    line-height: 24px;
-}
-.mainh1{
-    font-size: 35px;
-    width: 500px;
-}
-.coins{
-    justify-content: right;
-    height: 60%;
-}
-.panel{
+.podbox2{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 60px;
-    padding-left: 100px;
+    justify-content: center;
 }
-.logo{
-    margin: 10px;
-    height:20px;
+.inbox1{
+    height: 240px;
+    background-color: white;
+    border-radius: 10px;
+    width: 520px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
 }
-.Ye{
-    color:rgb(48, 85, 188);
-    margin-left: 5px;
+
+.inbox2{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 1080px;
+    background-color: white;    
+    border-radius: 10px;
+    margin-top: 40px
 }
-.top{
-    color: rgb(48, 85, 188);
-    text-decoration: none;
-    text-align: right;
-    align-items: right;
-    margin: 5px;
+
+h2{
+    margin: 20px;
+    font-size: 20px;
+}
+.dot{
+    line-height: 30px;
+    list-style-type: none;
+    font-size: 16px;
+}
+.dot li {
+    position: relative;
+    margin-bottom: 16px;
+    padding-left: 20px;
+}
+
+.dot li::before {
+    content: "●";   
+    position: absolute;
+    color: #4d83fa;
+    left: 0;
+}
+.indot{
+    margin-left: 80px;
+}
+
+.big_blue{
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 1080px;
+    background-color: rgb(217, 236, 253);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 20px;
+    line-height: 20px;
 }
