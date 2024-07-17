@@ -14,14 +14,11 @@ body{
     background-image: url("../assets/background.png");
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
-    margin-bottom: 1em;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .bot{
+    height: 100%;
     padding-top: 2em;
     display: flex;
     flex-direction: column;
