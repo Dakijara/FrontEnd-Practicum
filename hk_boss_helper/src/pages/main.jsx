@@ -24,8 +24,8 @@ const Main = () => {
                 <div class="textbox">   
                     <h1>Что вас интерисует?</h1>
                     <ul>
-                        <a class="lnk" href="">Тир-Листы боссов</a>
-                        <a class="lnk" href="">Полный список всех боссов</a>
+                        <a class="lnk" href="/tier_lists">Тир-Листы боссов</a>
+                        <a class="lnk" href="/boss_list">Полный список всех боссов</a>
                         <a class="lnk" href="">Карта расположения всех боссов</a>
                     </ul>
                 </div>

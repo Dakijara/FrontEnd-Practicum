@@ -10,10 +10,10 @@ import Bosses from "../src/pages/boss_list.jsx"
 const App = () => {
   return (
     <Fragment>
-    <Bosses/>
       <Routes>
         <Route path="/tier-lists" element={<tier_lists />}/>
-        <Route path="/boss_list" element={<boss_list />}/>
+        <Route path="/boss_list" element={<Bosses />}/>
+        <Route path="/main" element={<Main />}/>
       </Routes>
     </Fragment>
   )

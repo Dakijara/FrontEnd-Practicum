@@ -1,0 +1,25 @@
+.bosslink{
+    width: 23%;
+    background-color: #555B70;
+    height: 17.5em;
+    margin: 1%;
+    opacity: 100%;
+    
+}
+
+.bslist{
+    display: flex;
+    flex-direction: row;
+    opacity: 100%;   
+}
+
+.toBoss{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.bossICO{
+    width: 10em;
+}
