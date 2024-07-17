@@ -1,4 +1,16 @@
+.bslist{
+    display: flex;
+    flex-direction: row;
+    opacity: 100%;   
+}
+
 .bosslink{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
     width: 23%;
     background-color: #555B70;
     height: 17.5em;
@@ -7,19 +19,20 @@
     
 }
 
-.bslist{
-    display: flex;
-    flex-direction: row;
-    opacity: 100%;   
-}
-
 .toBoss{
-    align-items: center;
+    align-content: center;
     justify-content: center;
     text-decoration: none;
     color: #fefefe;
 }
 
 .bossICO{
-    width: 10em;
+    height: 13em;
+    width: 12em;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.bossNAME{
+    text-align: center;
 }
